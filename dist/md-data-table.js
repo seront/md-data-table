@@ -13,8 +13,8 @@ angular.module('md-table-pagination.html', []).run(['$templateCache', function (
   $templateCache.put('md-table-pagination.html',
     '<div class="label" layout-padding>\n' +
     '    <span ng-repeat="label in $pagination.footLabel">\n' +
-    '      <span ng-class="label.title.style">{{label.title.text}}</span>\n' +
-    '      <span ng-class="label.text.style">{{label.text.text}}</span>\n' +
+    '      <span class="foot-label-title" ng-class="label.title.style">{{label.title.text}}</span>\n' +
+    '      <span class="foot-label-text" ng-class="label.text.style">{{label.text.text}}</span>\n' +
     '    </span>\n' +
     '   </div> \n' +
     '<span flex></span>\n' +

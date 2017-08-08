@@ -378,7 +378,7 @@ You may use Angular's [number](https://docs.angularjs.org/api/ng/filter/number) 
 | `mdPageSelect`    | `[expression]` | Display a select dropdown for the page number |
 | `mdTotal`         | `integer`      | Total number of items. |
 | `ngDisabled`      | `[expression]` | Disable pagination elements. |
-| `mdFootLabel`      | `array of objects` | Array of objects [{title:{text: "Probando:", style: []},text: {text: "El label", style: []}}]. |
+| `mdFootLabel`      | `array of objects` | Array of objects has classes "foot-label-title" and "foot-label-text" [{title:{text: "Probando:", style: []},text: {text: "El label", style: []}}]. |
 
 The `md-label` attribute has the following properties.
 
