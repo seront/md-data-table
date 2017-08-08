@@ -9,7 +9,13 @@ angular.module('nutritionApp').controller('nutritionController', ['$http', '$mdE
     largeEditDialog: false,
     boundaryLinks: false,
     limitSelect: true,
-    pageSelect: true
+    pageSelect: true,
+    // footLabel: [{title: "Probando:", text: "El label"}]
+    footLabel: [
+      {title:{text: "Probando:", style: []},
+       text: {
+      text: "El label", style: []
+    }}]
   };
 
   $scope.selected = [];

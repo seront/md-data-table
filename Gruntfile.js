@@ -197,7 +197,7 @@ module.exports = function (grunt) {
   ]);
   
   grunt.registerTask('serve', [
-    'jshint:app',
+    // 'jshint:app',
     'less:app',
     'autoprefixer:app',
     'connect:app',

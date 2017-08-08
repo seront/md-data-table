@@ -130,7 +130,7 @@ angular.module('demoApp').controller('sampleController', ['$nutrition', '$scope'
   </table>
 </md-table-container>
 
-<md-table-pagination md-limit="query.limit" md-limit-options="[5, 10, 15]" md-page="query.page" md-total="{{desserts.count}}" md-on-paginate="getDesserts" md-page-select></md-table-pagination>
+<md-table-pagination md-limit="query.limit" md-limit-options="[5, 10, 15]" md-page="query.page" md-total="{{desserts.count}}" md-on-paginate="getDesserts" md-page-select md-foot-label="options.footLabel"></md-table-pagination>
 
 ```
 
@@ -378,6 +378,7 @@ You may use Angular's [number](https://docs.angularjs.org/api/ng/filter/number) 
 | `mdPageSelect`    | `[expression]` | Display a select dropdown for the page number |
 | `mdTotal`         | `integer`      | Total number of items. |
 | `ngDisabled`      | `[expression]` | Disable pagination elements. |
+| `mdFootLabel`      | `array of objects` | Array of objects [{title:{text: "Probando:", style: []},text: {text: "El label", style: []}}]. |
 
 The `md-label` attribute has the following properties.
 

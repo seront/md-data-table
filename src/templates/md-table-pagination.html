@@ -1,3 +1,11 @@
+  <div class="label" layout-padding>
+    <span ng-repeat="label in $pagination.footLabel">
+      <span ng-class="label.title.style">{{label.title.text}}</span>
+      <span ng-class="label.text.style">{{label.text.text}}</span>
+    </span>
+   </div> 
+<span flex></span>
+
 <div class="page-select" ng-if="$pagination.showPageSelect()">
   <div class="label">{{$pagination.label.page}}</div>
 

@@ -118,7 +118,8 @@ function mdTablePagination() {
       pageSelect: '=?mdPageSelect',
       onPaginate: '=?mdOnPaginate',
       limitOptions: '=?mdLimitOptions',
-      total: '@mdTotal'
+      total: '@mdTotal',
+      footLabel: '=mdFootLabel'
     },
     compile: compile,
     controller: Controller,
